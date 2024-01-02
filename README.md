@@ -1,7 +1,9 @@
 ## 100 Days of Code
 This repository documents my daily progress as I commit to coding and learning something new each day for the next 100 days.
-Trying to custom Git.
+
+The chosen languages to start with were C# and Bash script. 
+##### (I am aware that it is not recommended to learn two languages at a time, but I it helps me to stay focused and not get easily bored, since I'm very agitated)
 
 <div align="center">
-<img height="180cm" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leticia-hub&theme=github_dark"/>
+  <img height="180cm" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leticia-hub&theme=github_dark"/>
 </div>
