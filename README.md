@@ -1,4 +1,4 @@
-## 100 Days of Code
+## 100 Days of Code (starting 2024-01-02, I hope)
 This repository documents my daily progress as I commit to coding and learning something new each day for the next 100 days.
 
 The chosen languages to start with were C# and Bash script. 
