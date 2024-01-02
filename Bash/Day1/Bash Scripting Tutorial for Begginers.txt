@@ -1,0 +1,74 @@
+Bash Scripting Tutorial for Begginers
+
+-- Mostrar texto na tela
+echo "Hello, World!"
+
+-- Criar e editar arquivo de texto
+vim textfile.txt
+
+# I para editar
+# Esc para sair do modo de edição
+# :wq para salvar e sair do editor
+
+-- Mostrar texto de arquivo
+cat textfile.txt
+
+-- Arquivo Bash .sh
+shellfile.sh
+
+-- Listar arquivos do diretório atual
+ls
+
+-- Mostra o caminho do diretório atual
+pwd
+
+-- Executa o arquivo shell
+bash shelltest.sh
+
+-- Mostra o ambiente de execução do bash
+echo $SHELL
+
+-- Sempre especificar o interpretador de shell
+#!/usr/bin/bash
+
+-- Permite que somente o usuário execute o arquivo
+chmod u+x shelltest.sh
+
+-- Mostra os detalhes dos arquivos, incluindo a permissão
+ls -l
+
+-- Copia de um lugar para outro
+cp "FROM_HERE" "TO_HERE"
+
+-- Variáveis
+
+#!/usr/bin/bash # Local de execução do bash
+
+FIRST_NAME=Leticia # Variável
+LAST_NAME=Pontes
+
+echo ""
+echo Hello, $FIRST_NAME $LAST_NAME
+echo ""
+echo "Byee *"
+
+-- Lendo valores
+read FIRST_NAME
+
+-- Positional arguments
+echo $1 $2
+
+./posargu.sh Leticia Pontes
+
+-- PIPING
+ls -l /usr/bin | grep bash -- Filtra a busca
+
+-- Escrevendo em arquivo
+echo Hello World > hello.txt
+
+# > escreve em um novo arquivo/sobrescreve no arquivo existente
+# >> escreve no final do arquivo
+
+$ cat hello.txt
+Hello World
+Good day to you! 
